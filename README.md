@@ -1,27 +1,32 @@
-# Demo1
+# Angular 11 開發實戰：進階開發篇 實作練習專案
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
+本次 **Angular 11 開發實戰：進階開發篇** 課程，將會從這份套完版後的 Angular 專案開始。
 
-## Development server
+## 準備練習實作環境
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+你可以透過兩種方式取得範例專案：
 
-## Code scaffolding
+1. 點擊右側的 [Releases](https://github.com/coolrare/ng-advanced-210410/releases) 下載 `Source code (zip)` 回去解壓縮。
+2. 透過 Git 將本專案 Fork 回個人的 GitHub 帳號下，再透過 `git clone` 複製專案回去。
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+取得專案後請依據已下步驟設定：
 
-## Build
+1. 安裝 npm 套件
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+    ```sh
+    npm install
+    ```
 
-## Running unit tests
+2. 啟動專案並開啟瀏覽器
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    ```sh
+    npm start
+    ```
 
-## Running end-to-end tests
+## 練習套版過程
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+1. 點擊右側的 [Releases](https://github.com/coolrare/ng-advanced-210410/releases) 下載  `startbootstrap-sb-admin-2-gh-pages.zip` 回去解壓縮。
 
-## Further help
+2. 透過 `ng new` 命令建立 Angular 專案
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+3. 參考 [示範 SB Admin 2 靜態網頁版型轉成 Angular 應用程式的過程](https://www.youtube.com/watch?v=KdNX2q7FvpU) 影片進行套版！
